@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
-from cifar_rgb.datasets import create_cifar_rgb_loaders
-from cifar_rgb.transforms import grayscale
+from mmcifar.datasets import create_cifar_rgb_loaders
+from mmcifar.transforms import grayscale
 
 train_loader, _ = create_cifar_rgb_loaders(
     batch_size=4, transform=grayscale, train_ratio=0.8, random_seed=42

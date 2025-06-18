@@ -1,6 +1,6 @@
 import torch
 import pytest
-from cifar_rgb.datasets import RGBDataset, CIFARRGBData
+from mmcifar.datasets import RGBDataset, CIFARRGBData
 from torch.utils.data import DataLoader
 from torchvision import datasets as tv_datasets
 
