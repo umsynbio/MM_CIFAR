@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="cifar_rgb",
-    version="0.1",
+    name="mmcifar",
+    version="0.0.1",
     packages=find_packages(),
     install_requires=["torch", "torchvision", "matplotlib"],
     author="Michigan Synthetic Biology Team",
