@@ -38,7 +38,7 @@ Documentation = "https://github.com/umsynbio/MM_CIFAR#readme"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["cifar_rgb*"]
+include = ["mmcifar*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
